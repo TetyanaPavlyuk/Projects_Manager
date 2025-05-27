@@ -1,0 +1,41 @@
+id,project_id,employee_id,rating,comment,created_at
+1,1,9,5,"Great project!",2024-05-01 10:00:00
+2,1,10,4,"Well organized",2024-05-02 11:30:00
+3,1,11,5,"Excellent teamwork",2024-05-03 09:15:00
+4,1,12,3,"Some issues with planning",2024-05-04 13:45:00
+5,1,13,4,"Improved over time",2024-05-05 15:20:00
+6,2,14,5,"Smooth execution",2024-05-01 10:10:00
+7,2,15,4,"Great communication",2024-05-02 12:00:00
+8,2,16,3,"Budget was tight",2024-05-03 14:00:00
+9,2,17,4,"Decent outcome",2024-05-04 16:30:00
+10,2,18,5,"Would join again",2024-05-05 17:00:00
+11,3,9,3,"Could use improvement",2024-05-01 08:30:00
+12,3,12,4,"Good structure",2024-05-02 09:45:00
+13,3,14,2,"Lots of delays",2024-05-03 11:00:00
+14,3,16,4,"Clear leadership",2024-05-04 13:00:00
+15,3,19,5,"Loved it!",2024-05-05 14:30:00
+16,4,10,4,"Great atmosphere",2024-05-01 09:00:00
+17,4,13,3,"Some planning flaws",2024-05-02 10:15:00
+18,4,15,5,"Amazing result",2024-05-03 12:45:00
+19,4,17,4,"Everything on time",2024-05-04 15:10:00
+20,4,20,4,"Satisfied",2024-05-05 16:40:00
+21,5,11,5,"Budget under control",2024-05-01 10:00:00
+22,5,12,4,"On schedule",2024-05-02 11:30:00
+23,5,14,3,"Could improve reporting",2024-05-03 09:15:00
+24,5,18,4,"Well planned",2024-05-04 13:45:00
+25,5,19,5,"Highly efficient",2024-05-05 15:20:00
+26,6,9,4,"Nice team",2024-05-01 08:30:00
+27,6,13,5,"Flawless execution",2024-05-02 09:45:00
+28,6,15,3,"Some issues",2024-05-03 11:00:00
+29,6,16,4,"Managed well",2024-05-04 13:00:00
+30,6,20,4,"No delays",2024-05-05 14:30:00
+31,7,10,4,"Motivated team",2024-05-01 09:00:00
+32,7,11,3,"Tight deadlines",2024-05-02 10:15:00
+33,7,12,5,"Great lead",2024-05-03 12:45:00
+34,7,17,4,"Supportive team",2024-05-04 15:10:00
+35,7,19,5,"Perfect execution",2024-05-05 16:40:00
+36,8,9,5,"Well structured",2024-05-01 10:10:00
+37,8,14,4,"Smooth delivery",2024-05-02 12:00:00
+38,8,15,3,"Hard to follow specs",2024-05-03 14:00:00
+39,8,18,5,"On point!",2024-05-04 16:30:00
+40,8,20,4,"Excellent workflow",2024-05-05 17:00:00

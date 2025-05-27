@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  {% load bootstrap4 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+</head>
+<body>
+  <h3>Projects List
+    <a href="{% url 'project-create' %}">+</a>
+  </h3>
+  <table border="1" cellpadding="4">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Owner</th>
+        <th>Estimated Budget, $</th>
+        <th>Average Rating</th>
+        <th>Employees</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% if projects_list %}
+        {% for project in projects_list %}
+          <tr>
+            <td>
+              <a href="{% url 'project-detail' project.id %}">
+                {{ project.name }}
+              </a>
+            </td>
+            <td>{{ project.owner }}</td>
+            <td>{{ project.estimated_budget }}</td>
+            <td>{{ project.avg_rating }}</td>
+            <td>
+              {% for employee in project.employees.all %}
+                {{ employee }},
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      {% endif %}
+    </tbody>
+  </table>
+</body>
+</html>

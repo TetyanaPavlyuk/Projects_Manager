@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  {% load crispy_forms_filters %}
+</head>
+<body>
+  <div style="display: flex; justify-content: center">
+    <form action="" method="post">
+      {% csrf_token %}
+      {{ form|crispy }}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
